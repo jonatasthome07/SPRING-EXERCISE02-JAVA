@@ -85,6 +85,22 @@ public class Atividade {
 		this.preco = preco;
 	}
 
+	public Categoria getCategoria() {
+		return categoria;
+	}
+
+	public void setCategoria(Categoria categoria) {
+		this.categoria = categoria;
+	}
+
+	public List<Bloco> getBlocos() {
+		return blocos;
+	}
+
+	public Set<Participante> getParticipantes() {
+		return participantes;
+	}
+
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);
